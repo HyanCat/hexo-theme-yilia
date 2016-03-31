@@ -7,16 +7,16 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/HyanCat"
+  weibo: "http://weibo.com/liuguangbujiashao"
+  #zhihu: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/HyanCat"
   #linkedin: "#"
+  rss: "http://hyancat.com/atom.xml"
 
 rss: /atom.xml
 
@@ -51,15 +51,13 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  若古文学: https://wenxue.ruogoo.cn
+  若古社区: https://forum.ruogoo.cn
+  若古图床: https://tu.ruogoo.cn
+  颜隐兮博客: http://yanyinxi.com
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 懒拭宝剑锋，流光不加少
