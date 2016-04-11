@@ -44,7 +44,7 @@ share_addthis: false
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
 duoshuo: false
 #是否开启云标签
-tagcloud: true
+tagcloud: false
 
 #是否开启友情链接
 #不开启——
@@ -54,10 +54,9 @@ friends:
   若古文学: https://wenxue.ruogoo.cn
   若古社区: https://forum.ruogoo.cn
   若古图床: https://tu.ruogoo.cn
-  颜隐兮博客: http://yanyinxi.com
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 懒拭宝剑锋，流光不加少
+aboutme: false
