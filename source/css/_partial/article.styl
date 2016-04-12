@@ -8,9 +8,9 @@
   &.show{
     border-bottom: 1px solid #DDD;
     visibility: visible;
-    -webkit-animation: cd-bounce-1 0.6s;
-    -moz-animation: cd-bounce-1 0.6s;
-    animation: cd-bounce-1 0.6s;
+    -webkit-animation: scale-in 1s;
+    -moz-animation: scale-in 1s;
+    animation: scale-in 1s;
   }
   &.hidden{
     visibility: hidden;
@@ -19,50 +19,37 @@
     max-width: 100%;
   }
 }
-@-webkit-keyframes cd-bounce-1 {
+@-webkit-keyframes scale-in {
   0% {
     opacity: 0;
-    -webkit-transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.01);
+    -webkit-transform: scale(0.95);
   }
   100% {
+    opacity: 1;
     -webkit-transform: scale(1);
   }
 }
-@-moz-keyframes cd-bounce-1 {
+@-moz-keyframes scale-in {
   0% {
     opacity: 0;
-    -moz-transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: scale(1.01);
+    -moz-transform: scale(0.95);
   }
   100% {
+    opacity: 1;
     -moz-transform: scale(1);
   }
 }
-@keyframes cd-bounce-1 {
+@keyframes scale-in {
   0% {
-    opacity: 0;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
-    transform: scale(1.01);
+    opacity: 0.5;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
   }
   100% {
+    opacity: 1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -138,20 +125,19 @@
     margin-top: 10px;
   }
   p code,li code{
-    padding: 1px 3px;
+    padding: 2px 8px;
     margin: 0 3px;
-    background: #ddd;
-    border: 1px solid #ccc;
+    background: #eee;
     font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
     word-wrap: break-word;
     font-size: 14px;
+    border-radius: 2px;
   }
   blockquote {
     background: #ddd;
-    border-left: 5px solid #ccc;
-    padding: 15px 20px;
+    padding: 10px;
     margin-top: 10px;
-    border-left: 5px solid #657b83;
+    border-left: 4px solid #D8CACB;
     background: #f6f6f6;
     p{
       margin-top: 0;
@@ -171,7 +157,7 @@
       display: inline-block;
       margin-right: 10px;
       float: left;
-      margin-top: 12px;
+      margin-top: 8px;
     }
   }
   ul,ol{
@@ -289,8 +275,8 @@
     color: #aaa;
     &:before{
       color: #999;
-      content: "\f073";
-      font: 17px FontAwesome;
+      content: "\f274";
+      font: 14px FontAwesome;
       margin-right: 10px;
     }
   }
@@ -300,10 +286,10 @@
   margin-top: 5px;
   text-align: right;
   a{
-    background: #4d4d4d;
+    background: #888888;
     color: #fff;
     font-size: 12px;
-    padding: 2px 8px 4px;
+    padding: 4px 10px 6px;
     line-height: 16px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
