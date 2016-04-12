@@ -31,7 +31,7 @@
 			<nav class="header-nav">
 				<div class="social">
 					<% for (var i in theme.subnav){ %>
-						<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
+						<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="fa fa-<%= i%>" aria-hidden="true"></i></a>
 			        <%}%>
 				</div>
 			</nav>
